@@ -2670,6 +2670,16 @@ function stdhead($title = "", $varmsgalert = true, $script = "", $place = "") {
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?46c2ecc705b38756cd80941ce99886ef";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+        })();
+        </script>
+
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <?php
         if ($metakeywords_tweak) {
