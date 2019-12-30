@@ -1460,6 +1460,7 @@ if ($offervotetimeout_main)
 print ("<li>" . $lang_offers ['text_rule_six'] . "</li>\n");
 print ("<li>" . $lang_offers ['text_rule_five'] . "</li>\n");
 print ("<li>" . $lang_offers ['text_rule_seven'] . "</li>\n");
+print ("<li>" . $lang_offers ['text_rule_eight'] . "</li>\n");
 print ("</ul></div>");
 if (get_user_class() >= $addoffer_class) {
     print ("<div align=\"center\" style=\"margin-bottom: 8px;\"><a href=\"?add_offer=1\">" . "<b>" . $lang_offers ['text_add_offer'] . "</b></a></div>");
