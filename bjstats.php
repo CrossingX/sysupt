@@ -49,7 +49,7 @@ function end_frame2()
 function bjtable($res, $frame_caption)
 {
     $percent = 0.95;
-    $mb = 1000;
+    $mb = 100;
     $htmlout = '';
     $htmlout .= begin_frame2($frame_caption, true);
     $htmlout .= begin_table2();
