@@ -273,8 +273,8 @@ if (validateIPv6($ip))
 // current peer_id, or you could say session with tracker not found in table `peers`
 if (!isset ($self)) {
     $valid = @mysql_fetch_row(@sql_query("SELECT COUNT(*) FROM peers WHERE torrent=$torrentid AND userid=" . sqlesc($userid)));
-    if ($valid [0] >= 1 && $seeder == 'no')
-        err("009-你正在从其他地方下载相同的内容，如果这是由下载软件非正常退出造成的，请到个人信息页清除冗余种子");
+    // if ($valid [0] >= 1 && $seeder == 'no')
+    //     err("009-你正在从其他地方下载相同的内容，如果这是由下载软件非正常退出造成的，请到个人信息页清除冗余种子");
 
     if ($valid [0] >= 3 && $seeder == 'yes')
         err("010-同一种子不能在超过三个地方保种");
